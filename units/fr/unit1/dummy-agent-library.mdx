@@ -29,7 +29,7 @@ from huggingface_hub import InferenceClient
 ## Vous avez besoin d'un token depuis https://hf.co/settings/tokens. Si vous exécutez ce code sur Google Colab, vous pouvez le configurer dans l'onglet "settings" sous "secrets". Assurez-vous de l'appeler "HF_TOKEN"
 os.environ["HF_TOKEN"] = "hf_xxxxxxxxxxxxxx"
 
-client = InferenceClient(model="meta-llama/Llama-4-Scout-17B-16E-Instruct")
+client = InferenceClient(model="moonshotai/Kimi-K2.5")
 ```
 
 Nous utilisons la méthode `chat` car c'est un moyen pratique et fiable d'appliquer des gabarits de chat :
